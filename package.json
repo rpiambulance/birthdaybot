@@ -1,0 +1,28 @@
+{
+  "name": "birthdaybot",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpiambulance/birthdaybot.git"
+  },
+  "author": "Zapdos26",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpiambulance/birthdaybot/issues"
+  },
+  "homepage": "https://github.com/rpiambulance/birthdaybot#readme",
+  "dependencies": {
+    "@slack/web-api": "^5.8.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3"
+  },
+  "devDependencies": {
+    "@sentry/node": "^5.15.4"
+  }
+}
